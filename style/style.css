@@ -187,11 +187,6 @@ header ul a:hover{
     justify-content: flex-end;
 }
 
-.article1:hover{
-    color: #79B331;
-    cursor: pointer;
-}
-
 
 .article11{
     width: 400px;
@@ -200,6 +195,7 @@ header ul a:hover{
 
 }
 
+
 .leaf{
     width: 90px;
     height: 90px;
@@ -207,25 +203,14 @@ header ul a:hover{
     background-color: #C4C4C4;
 }
 
-.leaf:hover{
-    background-color: #79B331;
-    cursor: pointer;
-}
-
-
 .leaf2{
-    width: 90px;
-    height: 90px;
-    border-radius: 0 35px 0 35px;
     transform: rotate(90deg);
-    background-color: #C4C4C4;
 }
 
-.leaf2:hover{
-    background-color: #79B331;
+.article:hover .leaf{
+    background-color:#79B331 ;
     cursor: pointer;
 }
-
 .article2{
     width: 598px;
     height: 70px;
@@ -234,12 +219,6 @@ header ul a:hover{
     margin-left: 602px;
     margin-top: 150px;
     
-  
-}
-
-.article2:hover{
-    color: #79B331;
-    cursor: pointer;
 }
 
 .article22{
@@ -259,11 +238,6 @@ header ul a:hover{
 
 }
 
-.article3:hover{
-    color: #79B331;
-    cursor: pointer;
-}
-
 .article33{
     width: 470px;
 }
@@ -279,17 +253,16 @@ header ul a:hover{
     
 }
 
-.article4:hover{
-    color: #79B331;
-    cursor: pointer;
-}
 
 .article44{
     width: 400px;
 }
 
 
-
+.article:hover .articlep{
+    color:#79B331;
+    cursor: pointer;
+}
 
 
 
@@ -325,6 +298,11 @@ header ul a:hover{
     .tree{
         margin-left: 350px;
         margin-top: 300px;
+    }
+
+    .article33{
+        width: 402px;
+        
     }
 
     .article2{
